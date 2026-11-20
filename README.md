@@ -4,7 +4,7 @@
 
 **motomotos 是一个 Mac 刘海屏灵动岛（Dynamic Island）应用**：把 MacBook 的刘海变成会动的灵动岛，专为用 AI 写代码的人做——跟着 Claude Code、Codex、Grok、DeepSeek 干活，显示每个 AI 的剩余额度，任务做完、出错、等你批准时在刘海上提醒；还有音乐、番茄钟、常用软件和一只住在刘海里的小猫。
 
-Website / 官网: https://motomotos.com · Support: support@motomotos.com
+Website / 官网: https://motomotos.com · [Changelog](https://motomotos.com/changelog/) · [Compare notch apps](https://motomotos.com/compare/) · Support: support@motomotos.com
 
 ![Hover the notch: sessions, AI quota, music, clock and focus timer](docs/hover-band.gif)
 
@@ -32,17 +32,19 @@ Or in Terminal:
 curl -fsSL https://raw.githubusercontent.com/ygalex0927-eng/motomotos-releases/main/install.sh | bash
 ```
 
-Requirements: Apple silicon Mac, **macOS 15** or later. Best on a notched MacBook (Air / Pro); with the lid closed on an external display, or on a Mac without a notch, the island sits at the top middle of the menu bar.
+Requirements: Apple silicon or Intel Mac, **macOS 15** or later. Best on a notched MacBook (Air / Pro); with the lid closed on an external display, or on a Mac without a notch, the island sits at the top middle of the menu bar.
 
 After updating from an older version, turn **Screen Recording** and **Automation** back on for motomotos in System Settings › Privacy & Security.
 
 ## Pricing
 
-Free trial with every feature, then a one-time purchase. Buy in the app's Account window or at https://motomotos.com.
+10 days free with every feature, then **$4.99 once** — no subscription, future Mac updates included. Buy in the app (Settings › Account) or at https://motomotos.com; on another Mac, enter the license key from your receipt email under Restore Purchase. After the trial, the AI agent features and the other widgets lock until you buy; the island, the clock and the cat keep working.
+
+Guides: [Claude Code usage limits in the notch](https://motomotos.com/guides/claude-code-usage-in-notch/) · [AI agent alerts in the notch](https://motomotos.com/guides/ai-agent-alerts-in-notch/)
 
 ## 安装（中文）
 
-从 [Releases](https://github.com/ygalex0927-eng/motomotos-releases/releases/latest) 或官网下载 **Motomotos.dmg**，打开后把 Motomotos 拖进「应用程序」即可（已通过 Apple 公证）。也可以在「终端」里粘贴上面那行命令。需要 Apple 芯片的 Mac、macOS 15 以上；刘海屏 MacBook 效果最好，外接显示器或没有刘海的 Mac 上，灵动岛显示在菜单栏正中。
+从 [Releases](https://github.com/ygalex0927-eng/motomotos-releases/releases/latest) 或官网下载 **Motomotos.dmg**，打开后把 Motomotos 拖进「应用程序」即可（已通过 Apple 公证）。也可以在「终端」里粘贴上面那行命令。需要 Apple 芯片或 Intel 的 Mac、macOS 15 以上；刘海屏 MacBook 效果最好，外接显示器或没有刘海的 Mac 上，灵动岛显示在菜单栏正中。
 
 ---
 
